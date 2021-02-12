@@ -50,7 +50,6 @@ public:
           for (int j = 0; j < 2; j++) {
               inference_results.push_back(checkMeData[i * J + j]);
           }
-          inference->dump();
           result.push_back(inference);
       }
 
